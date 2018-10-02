@@ -9,7 +9,7 @@ void setup()
 void draw()
 {
   sum = 0;
-    background((int)(Math.random()*255)-40,(int)(Math.random()*255)-40,(int)(Math.random()*255)-40);
+    background((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
   for(int y = 50; y < 200; y+=50){
      for(int x = 50; x < 200;x+=50){
       Die bigree = new Die(x,y);
